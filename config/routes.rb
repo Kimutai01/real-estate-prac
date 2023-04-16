@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :favourites
+  resources :reviews
   resources :properties
   # config/routes.rb
   namespace :api do
